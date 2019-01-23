@@ -51,3 +51,7 @@ operation
  ${operationResult+3}`);
 
 
+log(Boolean ("2" == 2)); // debería dar true
+log("2" == 2); // debería dar true. AMBAS SON LO MISMO
+log("2" === 2); // debería dar false
+
